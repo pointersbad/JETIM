@@ -29,7 +29,6 @@ We have an active community which includes members from all across the different
  ## Generating Videos  
 Generating AI-powered videos is simple enough; all one needs do is entry their data in the designated fields, then press "submit". The results will generate within seconds - a fully formed video which explains various concepts in a simple language tailored according your specified criteria.
 
-![JETIM](https://github.com/pointersbad/JETIM/blob/main/public/gif.gif)
 ![JETIM APP](https://github.com/pointersbad/JETIM/blob/main/public/JETIM.png)
 
 ## Built With :zap:

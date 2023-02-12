@@ -12,6 +12,7 @@ const theme = createTheme({
 	},
 	palette: {
 		purple: createColor('#7d43b4'),
+		white: createColor('#ffffff'),
 	},
 });
 

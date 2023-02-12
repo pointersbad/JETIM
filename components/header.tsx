@@ -16,7 +16,7 @@ const Header = (props: IProps) => {
 					</Typography>
 					<Box sx={{ flexGrow: 1, display: 'flex' }}>
 						{Object.entries(props.links).map(([label, link]) => (
-							<Button onClick={() => router.push(link)} key={link} sx={styles.link}>
+							<Button onClick={() => router.push(link)} key={link} color="white">
 								{label}
 							</Button>
 						))}
@@ -26,9 +26,5 @@ const Header = (props: IProps) => {
 		</AppBar>
 	);
 };
-
-const styles = {
-	link: { my: 2, px: 2, color: 'white', display: 'block' },
-} as const;
 
 export default Header;

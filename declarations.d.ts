@@ -1,8 +1,9 @@
-import { PaletteColorOptions } from '@mui/material';
+import { PaletteColor } from '@mui/material';
 
 declare module '@mui/material/styles' {
 	interface CustomPalette {
-		purple: PaletteColorOptions;
+		purple: PaletteColor;
+		white: PaletteColor;
 	}
 	interface Palette extends CustomPalette {}
 	interface PaletteOptions extends CustomPalette {}
@@ -11,6 +12,7 @@ declare module '@mui/material/styles' {
 declare module '@mui/material/Button' {
 	interface ButtonPropsColorOverrides {
 		purple: true;
+		white: true;
 	}
 }
 

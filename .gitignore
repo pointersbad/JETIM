@@ -2,3 +2,7 @@ next-env.d.ts
 node_modules
 .next
 video.mp4
+.idea
+.next
+next-env.d.ts
+.DS_Store
